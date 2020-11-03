@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common.keys import Keys
 import time
 
 PATH = "/Users/danyullim/Github/selenium/chromedriver"
