@@ -11,5 +11,8 @@ driver = webdriver.Chrome(PATH)
 driver.get("http://seoulbaptist.org/")
 print(driver.title)
 
-link = driver.find_element_by_css_selector("area.rect")
+link = driver.find_element_by_css_selector("area")
 link.click()
+
+email = driver.find_element_by_xpath('/html/body/div/div[2]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/div[1]/div/div[1]/input')
+email.click()
